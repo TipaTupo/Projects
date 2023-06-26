@@ -1,0 +1,78 @@
+.btn {
+    border-radius: 10px; 
+    padding: 10px; 
+    font-family: Helvetica, Sans-Serif;
+    margin: 20px;
+    min-width: 120px;
+}
+
+.btn-SnF {
+    color: #ffffff; 
+    border: none; 
+    font-size: 130%;
+}
+
+.btn-SnF--strt {
+    background-color: #00CCCC;
+}
+
+.btn-SnF--fnsh {
+    background-color: #FFAA00;
+}
+
+.btn-rcrd {
+    background-color: #ffffff;
+    color: #000000; 
+    border-width: thin;
+    font-size: 100%; 
+}
+
+.btn:hover {
+  outline: none;
+  box-shadow: 0 0 0 3px #eee;
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow: 0 0 0 3px #ddd;
+}
+
+.rslt {
+    font-size: 130%;
+    font-family: Helvetica, Sans-Serif;
+    margin: 0 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answ {
+    font-size: 110%;
+    font-family: Helvetica, Sans-Serif;
+    margin: 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30px;
+}
+
+.ctdn {
+    font-size: 350px;
+    font-family: Helvetica, Sans-Serif;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctdn-three {
+  color: #008585;
+}
+
+.ctdn-two {
+  color: #269999;
+}
+
+.ctdn-one {
+  color: #00cccc;
+}
